@@ -1,0 +1,16 @@
+install .net
+
+sudo apt-get update && \
+  sudo apt-get install -y dotnet-sdk-7.0
+
+create a new core console
+
+dotnet new console
+
+add event hubs package
+
+dotnet add package Azure.Messaging.EventHubs
+
+refresh .net core 
+
+dotnet restore
