@@ -8,8 +8,8 @@ namespace send
 {
     class Program
     {
-        private const string connectionString = "Endpoint=sb://social-media-messenger-template.servicebus.windows.net/;SharedAccessKeyName=sender;SharedAccessKey=yvQBBJrY/t4RiaRSzjESPrh4lzv96/JwM+AEhHuc1Jk=;EntityPath=messenger-template";
-        private const string eventHubName = "messenger-template";
+        private const string connectionString = "Endpoint=sb://social-media-messenger-template.servicebus.windows.net/;SharedAccessKeyName=sender;SharedAccessKey=tV5GF5UPBdnZvLebJh0XC/w3aKFQDXjOL+AEhOYltsQ=;EntityPath=messanger-template";
+        private const string eventHubName = "messanger-template";
         static async Task Main()
         {
             // Create a producer client that you can use to send events to an event hub
